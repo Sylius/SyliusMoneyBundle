@@ -4,7 +4,7 @@
 sylius:
   exchange_rate:
     currency:
-      not_blank: Kies uw valuta.
+      not_blank: Prosím zvoľte menu.
     rate:
-      not_blank: Vul een ratio in.
-    unique: Valuta moet uniek zijn.
+      not_blank: Prosím zadajte kurz.
+    unique: Mena musí byť unikátna.

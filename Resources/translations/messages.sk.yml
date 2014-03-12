@@ -4,5 +4,5 @@
 sylius:
   form:
     exchange_rate:
-      currency: Valuta
-      rate: Stopa
+      currency: Mena
+      rate: Kurz
