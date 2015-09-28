@@ -5,4 +5,4 @@ sylius:
   form:
     exchange_rate:
       currency: Валута
-      rate: Курс
+      rate: Стапка

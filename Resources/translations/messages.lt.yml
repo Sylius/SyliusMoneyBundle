@@ -4,5 +4,5 @@
 sylius:
   form:
     exchange_rate:
-      currency: Валута
-      rate: Курс
+      currency: Valiuta
+      rate: Kursas
