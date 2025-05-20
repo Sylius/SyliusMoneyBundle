@@ -20,12 +20,15 @@ final class SyliusMoneyTransformerTest extends TestCase
 {
     public function testReturnsNullIfEmptyStringGiven(): void
     {
-        $this->assertNull($this->syliusMoneyTransformer->reverseTransform(''));
+        $syliusMoneyTransformer = new SyliusMoneyTransformer(null, null, null, 100);
+
+        self::assertNull($syliusMoneyTransformer->reverseTransform(''));
     }
 
     public function testConvertsStringToAnInteger(): void
     {
-        $this->syliusMoneyTransformer = new SyliusMoneyTransformer(null, null, null, 100);
-        $this->assertSame(410, $this->syliusMoneyTransformer->reverseTransform('4.10'));
+        $syliusMoneyTransformer = new SyliusMoneyTransformer(null, null, null, 100);
+
+        self::assertSame(410, $syliusMoneyTransformer->reverseTransform('4.10'));
     }
 }
